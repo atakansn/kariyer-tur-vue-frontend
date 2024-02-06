@@ -7,6 +7,6 @@ const { app, router } = createApp()
 
 //app.mount('#app')
 
-await router.isReady()
+router.isReady()
 
 app.mount('#app')
